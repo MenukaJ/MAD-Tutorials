@@ -35,9 +35,11 @@ public class SecondActivity extends AppCompatActivity {
 
         editText3 = findViewById(R.id.editTextNumber6);
         editText3.setText(num1);
+ //       editText3.setEnabled(false);
 
         editText4 = findViewById(R.id.editTextNumber3);
         editText4.setText(num2);
+ //       editText4.setEnabled(false);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
